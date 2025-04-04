@@ -5,7 +5,7 @@ export const Counter = () => {
 
   return (
     <div class="flex flex-col items-center justify-center gap-7">
-      <h1 class="text-5xl">Counter</h1>
+      <h1 class="text-4xl">Counter</h1>
       <h3 class="text-xl">Value: {counter()}</h3>
 
       <div class="flex gap-4">
