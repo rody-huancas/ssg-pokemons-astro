@@ -88,7 +88,6 @@ const imageSrc = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprit
     const heartOutline = btnFavorite.querySelector("[data-outline]") as HTMLElement;
     const heartFull = btnFavorite.querySelector("[data-full]") as HTMLElement;
 
-    // Función para mostrar el corazón lleno o vacío
     const isFavorite = favoritePokemons.some((fav) => fav.name === name);
     
     if (isFavorite) {
